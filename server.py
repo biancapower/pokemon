@@ -1,8 +1,11 @@
+#!/usr
+#python3
+
 from flask import Flask
 import requests
 app = Flask(__name__)
 
-POKEMON_API_URL = "https://pokeapi.co/api/v2/"
+POKEMOUT_API_URL = "https://pokeapi.co/api/v2/"
 COLOUR_URL = POKEMON_API_URL + 'pokemon-color'
 
 @app.route('/<colour>') 
